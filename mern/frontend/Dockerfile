@@ -1,4 +1,5 @@
-FROM node:20.0.0
+FROM node:latest
+
 WORKDIR ./app
 
 COPY package.json .
